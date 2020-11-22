@@ -1,16 +1,16 @@
 /*!
- * name: @feizheng/next-trim-repeated
+ * name: @jswork/next-trim-repeated
  * description: Trim repeat for next.
- * url: https://github.com/afeiship/next-trim-repeated
+ * homepage: https://github.com/afeiship/next-trim-repeated
  * version: 1.0.0
- * date: 2020-03-29 11:43:26
+ * date: 2020-11-22 14:24:34
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var nxEscapeRegexp = nx.escapeRegexp || require('@feizheng/next-escape-regexp');
+  var nx = global.nx || require('@jswork/next');
+  var nxEscapeRegexp = nx.escapeRegexp || require('@jswork/next-escape-regexp');
 
   nx.trimRepeated = function (inString, inTarget) {
     if (typeof inString !== 'string' || typeof inTarget !== 'string') {
@@ -25,5 +25,3 @@
     module.exports = nx.trimRepeated;
   }
 })();
-
-//# sourceMappingURL=next-trim-repeated.js.map

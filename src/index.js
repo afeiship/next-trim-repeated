@@ -1,7 +1,7 @@
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var nxEscapeRegexp = nx.escapeRegexp || require('@feizheng/next-escape-regexp');
+  var nx = global.nx || require('@jswork/next');
+  var nxEscapeRegexp = nx.escapeRegexp || require('@jswork/next-escape-regexp');
 
   nx.trimRepeated = function (inString, inTarget) {
     if (typeof inString !== 'string' || typeof inTarget !== 'string') {
