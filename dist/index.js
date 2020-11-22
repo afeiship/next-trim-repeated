@@ -3,7 +3,7 @@
  * description: Trim repeat for next.
  * homepage: https://github.com/afeiship/next-trim-repeated
  * version: 1.0.0
- * date: 2020-11-22 14:24:34
+ * date: 2020-11-22 14:25:55
  * license: MIT
  */
 

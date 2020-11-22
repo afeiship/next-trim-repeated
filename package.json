@@ -39,5 +39,11 @@
   },
   "dependencies": {
     "@jswork/next-escape-regexp": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "next",
+    "trim",
+    "repeat",
+    "repeated"
+  ]
 }
